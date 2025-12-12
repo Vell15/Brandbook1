@@ -19,6 +19,21 @@ body {
     display: flex;
     padding: 0 20px;
 }
+
+.rez {
+    height: 80vh;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer; /* курсор пальчик*/
+    color: #fff;
+    flex: 1;
+   /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; /* тут была пропущена строка*/
+    transition: all 500ms ease-in-out; /* переход слайдов из одного в другой*/
+  */
+}
 .slide {
     height: 80vh;
     border-radius: 20px;
@@ -47,4 +62,5 @@ body {
 .slide.active h3{       /* если слайд активный то применяем некоторае стили */
     opacity: 1;
     transition: opacity 0.3s ease-in 0.4s; /* задаем анимацию: свойство, длительность ее кинематику*/
+
 }
